@@ -1,0 +1,37 @@
+title: a Workshop in Fluid Corpus Manipulation: data mining through machine listening and machine learning in Max and SuperCollider
+
+date: 14 to 18th March 2022: beginner (14-15 March) intermediate (16-17 March) and advanced q&a and personal projects (18 March) will be explored (see notes below)
+
+What is FluCoMa:
+
+The Fluid Corpus Manipulation project (FluCoMa) enables techno-fluent musicians to integrate machine listening and machine learning in their creative practice within Max, SuperCollider, and Pure Data. From dealing with large sound banks to exploring chaotic synthesisers, the toolkit enables custom tools and workflows for making music in dialogue with machines.
+
+FluCoMa offers audio decomposition tools to separate audio into component elements, audio analysis tools to describe audio components as analytical and statistical representations, data analysis and machine learning algorithms for pattern detection and expressive corpora browsing, and audio morphing and hybridization algorithms for audio remixing, interpolating, and variation-making.
+
+The software works hand-in-hand with learning resources and a community discussing their practice. Download the package, visit them, chat, and learn more at flucoma.org
+
+----
+There are 5 days of workshops offered with three levels of depth . People can subscribe to all three sessions separately and are encouraged to attend them all. These will be hands-on, therefore participants are expected to bring their laptop with the latest version of the toolset installed. Instructions will be sent in advance, alongside online support to troubleshoot before the workshop.
+
+* Day 1 and 2 will cover in class the subjects covered in our online video resources. It is for Max and SuperCollider users who have not used the FluCoMa tools before. We will explore the toolkit's conventions and code together:
+- a timbre classifier using a neural network
+- controlling synthesiser parameters using a neural network
+- a graphical sound bank browser, using multiple segmentations and representations via machine listening (audio descriptors)
+- finding similar sounds via nearest-neighbour algorithms
+- a comparison of creative timbral separation algorithms such as sinusoidal, transients, harmonic/percussion, and spectrogram factorisation
+
+We will see the potential and the limits of these approaches, and how to harness it all towards musicking.
+
+* Day 3 and 4 is a potential starting point for people who have done and applied the video tutorials online, and a good follow up for people who want to go further than the first 2 days. It is for intermediate to advanced users of Max and SuperCollider, with a basic understanding of the FluCoMa conventions and experience in machine listening and machine learning. Having attended day 1 and 2, or done and applied the online video tutorials is a prerequisite.
+
+During these two days, we will share, explain, and customise a series of bespoke workflows where the musical thinking has informed and been informed by the toolset, intertwined with vignettes on more advanced concepts. For instance, we could cover:
+  - bespoke approaches to descriptors in time
+  - temporally re-organising a corpus of instrumental recordings according to similarity
+  - latent spaces and their creative potential
+  - cross-synthesis of partial components via nmf
+  - sound design via demixing
+  - working to/from the DAW
+
+We will explore how the toolset enabled personal inquiries into integrating a machine in the creative exploration of a personal sound bank. Presentation of code and ideas will alternate with discussions, questions and hacking sessions where attendees will code their own musical processes.
+
+* Day 5 is for presentations by attendees and for advanced questions and answers around the interests of the participants and what has been covered in day 3 and 4, as well as extracting universal questions to be explored on bespoke programmatic data mining of sound corpora.
