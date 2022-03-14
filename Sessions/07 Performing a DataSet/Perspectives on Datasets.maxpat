@@ -222,18 +222,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1095.0, 52.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -253,18 +241,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 773.0, 318.0, 75.0, 22.0 ],
 					"text" : "peek~ slices"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1334.0, 377.0, 79.0, 22.0 ],
-					"text" : "buffer~ slices"
 				}
 
 			}
