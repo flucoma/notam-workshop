@@ -81,6 +81,10 @@
 <node TEXT="max" ID="ID_1523669197" CREATED="1646913657782" MODIFIED="1646913666616"/>
 </node>
 </node>
+<node TEXT="stats" ID="ID_165631511" CREATED="1647258352678" MODIFIED="1647258360678">
+<node TEXT="stabilise even more" ID="ID_1852922038" CREATED="1647258365945" MODIFIED="1647258374638"/>
+<node TEXT="derivatives" ID="ID_570370940" CREATED="1647529185400" MODIFIED="1647529189522"/>
+</node>
 </node>
 </node>
 </node>
@@ -103,6 +107,9 @@
 <node TEXT="https://en.wikipedia.org/wiki/Multisensory_integration" ID="ID_1792334832" CREATED="1646991482272" MODIFIED="1646991482272" LINK="https://en.wikipedia.org/wiki/Multisensory_integration"/>
 <node TEXT="https://en.wikipedia.org/wiki/Missing_fundamental" ID="ID_169377833" CREATED="1646991502373" MODIFIED="1646991502373" LINK="https://en.wikipedia.org/wiki/Missing_fundamental"/>
 <node TEXT="pitch theories" ID="ID_712757977" CREATED="1646991801319" MODIFIED="1646991812100"/>
+</node>
+<node TEXT="multimodal switching" ID="ID_1204766176" CREATED="1647252373018" MODIFIED="1647252382384">
+<node TEXT="scratchy synth" ID="ID_486526463" CREATED="1647252383830" MODIFIED="1647252416161"/>
 </node>
 <node TEXT="schaefferian" ID="ID_1983949567" CREATED="1646914320719" MODIFIED="1646914329504">
 <node TEXT="cut bell experiment" ID="ID_1598185611" CREATED="1646914329904" MODIFIED="1646914334240"/>
