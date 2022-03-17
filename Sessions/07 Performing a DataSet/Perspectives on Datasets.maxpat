@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 88.0, 1850.0, 1077.0 ],
+		"rect" : [ 35.0, 88.0, 1370.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -222,18 +222,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1095.0, 52.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -258,18 +246,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1334.0, 377.0, 79.0, 22.0 ],
-					"text" : "buffer~ slices"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "newobj",
@@ -286,7 +262,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -357,7 +333,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 51.0, 50.0, 173.0, 22.0 ],
 									"text" : "fluid.kmeans~ @numclusters 9"
 								}
@@ -417,7 +393,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 205.0, 144.0, 122.0, 22.0 ],
 									"text" : "fluid.labelset~ groups"
 								}
@@ -492,7 +468,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 28.0, 633.444439285465251, 98.0, 22.0 ],
 									"text" : "fluid.kdtree~ tree"
 								}
@@ -516,7 +492,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 28.0, 144.0, 103.0, 22.0 ],
 									"text" : "fluid.dataset~ plot"
 								}
@@ -892,7 +868,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 114.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1035,7 +1011,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 36.0, 50.0, 180.0, 22.0 ],
 									"text" : "fluid.kmeans~ @numclusters 10"
 								}
@@ -1095,7 +1071,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 190.0, 144.0, 122.0, 22.0 ],
 									"text" : "fluid.labelset~ groups"
 								}
@@ -1170,7 +1146,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 13.0, 633.444439285465251, 98.0, 22.0 ],
 									"text" : "fluid.kdtree~ tree"
 								}
@@ -1194,7 +1170,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 13.0, 144.0, 103.0, 22.0 ],
 									"text" : "fluid.dataset~ plot"
 								}
@@ -2132,7 +2108,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
-													"outlettype" : [ "bang", "float", "" ],
+													"outlettype" : [ "", "float", "" ],
 													"patching_rect" : [ 12.0, 117.0, 133.0, 22.0 ],
 													"text" : "fluid.dataset~ controller"
 												}
@@ -3111,7 +3087,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 558.5, 655.292939610887743, 133.0, 22.0 ],
 									"text" : "fluid.dataset~ controller"
 								}
@@ -3135,7 +3111,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 390.5, 655.292939610887743, 166.0, 22.0 ],
 									"text" : "fluid.grid~ @extent 3 @axis 1"
 								}
@@ -3159,7 +3135,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 514.5, 336.888878570930615, 120.0, 22.0 ],
 									"text" : "fluid.dataset~ means"
 								}
@@ -3171,7 +3147,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 390.5, 336.888878570930615, 122.0, 22.0 ],
 									"text" : "fluid.labelset~ groups"
 								}
@@ -3619,7 +3595,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3739,7 +3715,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 1022.0, 274.444439285465251, 93.0, 22.0 ],
 									"text" : "fluid.normalize~"
 								}
@@ -3764,7 +3740,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 635.5, 127.777778301108128, 118.0, 22.0 ],
 									"text" : "fluid.kdtree~ gridtree"
 								}
@@ -3776,7 +3752,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 1077.0, 50.0, 131.0, 22.0 ],
 									"text" : "fluid.dataset~ normgrid"
 								}
@@ -3788,7 +3764,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 1077.0, 18.0, 124.0, 22.0 ],
 									"text" : "fluid.dataset~ gridded"
 								}
@@ -3812,7 +3788,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 537.0, 50.0, 61.0, 22.0 ],
 									"text" : "fluid.grid~"
 								}
@@ -3898,7 +3874,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 664.0, 636.444439285465251, 118.0, 22.0 ],
 									"text" : "fluid.kdtree~ gridtree"
 								}
@@ -3922,7 +3898,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 579.0, 162.0, 104.0, 22.0 ],
 									"text" : "fluid.dataset~ grid"
 								}
@@ -4046,7 +4022,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 8.0, 636.444439285465251, 98.0, 22.0 ],
 									"text" : "fluid.kdtree~ tree"
 								}
@@ -4070,7 +4046,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 8.0, 162.0, 103.0, 22.0 ],
 									"text" : "fluid.dataset~ plot"
 								}
@@ -4441,7 +4417,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -4453,7 +4429,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4500,7 +4476,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
+									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -4571,7 +4547,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
-													"outlettype" : [ "bang", "float", "" ],
+													"outlettype" : [ "", "float", "" ],
 													"patching_rect" : [ 18.0, 102.0, 126.0, 89.0 ],
 													"text" : "fluid.bufcompose~ @source raw_corpus @destination corpus @destgain 0.5 @deststartchan 0 @numchans 1"
 												}
@@ -4850,7 +4826,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 15.0, 233.5, 639.0, 22.0 ],
 									"text" : "fluid.bufnoveltyslice~ @source corpus @indices slices @kernelsize 7 @minslicelength 10 @blocking 0 @threshold 0.2"
 								}
@@ -5063,7 +5039,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5153,7 +5129,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 95.333333216286974, 166.0, 114.0, 22.0 ],
 									"text" : "fluid.dataset~ umap"
 								}
@@ -5202,7 +5178,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 63.333333216286974, 278.5, 93.0, 22.0 ],
 									"text" : "fluid.normalize~"
 								}
@@ -5239,7 +5215,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 11.333333216286974, 166.0, 71.0, 22.0 ],
 									"text" : "fluid.umap~"
 								}
@@ -5365,7 +5341,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5423,7 +5399,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 73.5, 484.0, 263.0, 22.0 ],
 									"text" : "fluid.bufflatten~ @source stats @destination flat"
 								}
@@ -5467,9 +5443,9 @@
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 73.5, 437.0, 233.0, 22.0 ],
 									"text" : "fluid.bufstats~ @source mfcc @stats stats"
 								}
@@ -5493,7 +5469,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 73.5, 393.0, 440.0, 22.0 ],
 									"text" : "fluid.bufmfcc~ 13 @numcoeffs 13 @source corpus @features mfcc @startcoeff 1"
 								}
@@ -5553,7 +5529,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 73.5, 609.0, 107.0, 22.0 ],
 									"text" : "fluid.dataset~ data"
 								}
@@ -5899,7 +5875,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1850.0, 1051.0 ],
+						"rect" : [ 0.0, 26.0, 1370.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5983,7 +5959,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
-									"outlettype" : [ "bang", "float", "" ],
+									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 10.0, 83.0, 98.0, 22.0 ],
 									"text" : "fluid.kdtree~ tree"
 								}
@@ -6128,7 +6104,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "" ],
+					"outlettype" : [ "", "float", "" ],
 					"patching_rect" : [ 361.0, 647.1111116344415, 98.0, 22.0 ],
 					"text" : "fluid.kdtree~ tree"
 				}
@@ -6152,7 +6128,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "float", "" ],
+					"outlettype" : [ "", "float", "" ],
 					"patching_rect" : [ 361.0, 44.0, 103.0, 22.0 ],
 					"text" : "fluid.dataset~ plot"
 				}
