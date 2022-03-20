@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="revision" POSITION="right" ID="ID_660876559" CREATED="1646913739422" MODIFIED="1646913741567">
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="revision" FOLDED="true" POSITION="right" ID="ID_660876559" CREATED="1646913739422" MODIFIED="1646913741567">
 <edge COLOR="#ff0000"/>
 <node TEXT="you only get what you want" ID="ID_801612917" CREATED="1646912614058" MODIFIED="1646913744764">
 <node TEXT="nearest neigbourg" ID="ID_685716313" CREATED="1646912633379" MODIFIED="1646912664516"/>
@@ -90,7 +90,7 @@
 </node>
 <node TEXT="so what do you actually want" POSITION="right" ID="ID_386838530" CREATED="1646913784157" MODIFIED="1646913789431">
 <edge COLOR="#0000ff"/>
-<node TEXT="balint descriptors" ID="ID_832061229" CREATED="1646913866892" MODIFIED="1646913871438">
+<node TEXT="balint descriptors" FOLDED="true" ID="ID_832061229" CREATED="1646913866892" MODIFIED="1646913871438">
 <node TEXT="https://discourse.flucoma.org/t/lte-an-alternative-to-lpt-for-people-who-dont-care-about-pitch/605/21" ID="ID_1284498999" CREATED="1646924117920" MODIFIED="1646924117920" LINK="https://discourse.flucoma.org/t/lte-an-alternative-to-lpt-for-people-who-dont-care-about-pitch/605/21"/>
 <node TEXT="length" ID="ID_910801578" CREATED="1646924128012" MODIFIED="1646924186907"/>
 <node TEXT="loudness stats" ID="ID_1767369131" CREATED="1646924186926" MODIFIED="1646924186927"/>
@@ -142,6 +142,10 @@
 </node>
 <node TEXT="using fft as time approximator" POSITION="right" ID="ID_1432768526" CREATED="1646912697785" MODIFIED="1646912713482">
 <edge COLOR="#007c00"/>
+</node>
+<node TEXT="trends with 3 lenghts of time window" POSITION="right" ID="ID_348058690" CREATED="1647772650674" MODIFIED="1647772674152">
+<edge COLOR="#00ff00"/>
+<node TEXT="long/mid/short trends" ID="ID_1705048813" CREATED="1647772679194" MODIFIED="1647772687412"/>
 </node>
 </node>
 </map>
